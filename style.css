@@ -28,6 +28,7 @@ body {
     font-family: 'DM Sans', sans-serif;
 
     background: var(--dark);
+    color: var(--white);
 }
 
 .container {
@@ -37,6 +38,7 @@ body {
 }
 
 /****** HEADER ***/
+
 header  .container {
     display: flex;
     justify-content: space-between;
@@ -48,8 +50,11 @@ header  .container {
 
 header .container ul {
     display: flex;
+    justify-content: end;
+    width: 31em;
     gap: 2rem;
-    font-weight: 400;     
+    font-weight: 400;  
+
 }
 
 header .container ul li {
@@ -67,8 +72,7 @@ main .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-
+   
     margin-top: 3rem;
 
     color: var(--white);
@@ -92,9 +96,7 @@ main .container .hello {
     flex-direction: column;
     
    justify-content: center;
-  
-    
-   
+     
     gap: 1em;
 }
 
@@ -134,7 +136,132 @@ main .container .buttons .contact:hover {
 } 
 
 main .container .image svg {
-     width: 22em;
+     width: 100%;
 }
 
+/**** ABOUT ME SECTION ****/
 
+#about .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    gap: 3em;
+    margin: 0 auto;
+
+    margin-top: 4rem;
+}
+
+#about .container header h3 {
+    font-size: 3em;
+}
+
+#about .description {
+    display: flex;
+    justify-content: center;
+
+    font-size: 2.2em;
+}
+
+.container p {
+    width: 65%;
+    
+    color: var(--gray);
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+
+    gap: 2em;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.info div p {
+    width: 100%;
+    font-weight: 700;
+}
+
+.info div .title {
+    font-size: 1.2em;
+   
+    color: var(--white);
+}
+
+.info div .answer {
+    font-size: 1.1em;
+}
+
+/** PROJECTS **/
+
+#projects {
+    margin-top: 4rem;
+}
+
+#projects .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4em;
+}
+
+#projects header h3 {
+    font-size: 3em;
+}
+
+#projects .container .works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    width: 70%;
+    margin: 0 auto;
+}
+
+#projects .container .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+    gap: 1rem;
+ 
+    margin-bottom: 3em;
+}
+
+#projects .container .project .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--gray-200);
+
+    height: 90px;
+    width: 80%;
+
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+#projects .container .project .projectDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+#projects .container .project .projectDescription .title {
+    color: var(--white);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#projects .container .project .projectDescription .tecnology {
+font-size: 1.1em;
+font-weight: 500;
+}
