@@ -265,3 +265,124 @@ main .container .image svg {
 font-size: 1.1em;
 font-weight: 500;
 }
+
+/*** SERVICES ****/
+
+#services .container {
+  
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   margin-top: 4em;
+  
+}
+
+#services .container header h3 {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--white);
+}
+
+#services .servicesContainer {
+    display: flex;
+    justify-content: space-between;
+  
+   width: 30em;
+   margin: 3em auto;
+
+   font-size: 1.2em;
+   font-weight: 700;
+
+}
+
+#services .servicesContainer p {
+    width: 100%;
+}
+
+/** SKILLS **/
+
+#skills .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+#skills .container .skills {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+       margin-top: 2em;
+       gap: 2em;
+       margin-bottom: 2em;
+       width: 90%;
+}
+
+hr {
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    header .container ul {
+     width: 52em;
+    }
+        main .container .image svg {
+         display: none;
+     }
+ 
+     main .hello {
+         margin: 0 auto;
+         text-align: center;
+         align-items: center;
+     }
+ 
+     #about .info div {
+         width: 32%;
+     }
+
+     #services ,.servicesContainer {
+        flex-direction: column;
+        gap: 4em;
+    }
+ 
+    hr {
+        display: block;
+    }
+ 
+ }
+
+ @media screen and (max-width: 769px) {
+    header .container ul {
+        display: none;
+   }
+
+   .info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   
+ }
+
+ @media screen  and (min-width:320px) {
+   body {
+    overflow-x: hidden;
+   }
+   
+    #services .servicesContainer {
+        width: 21em;
+    }
+
+    #skills .container .skills {
+        gap: 1em;
+    }
+
+    #skills svg {
+        width: 10;
+    }
+ }
