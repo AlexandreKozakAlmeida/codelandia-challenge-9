@@ -395,11 +395,15 @@ hr {
 
    #btn-mobile {
     display: flex;
-    position: fixed;
+    position: absolute;
     right: 39px;
     z-index: 2;
 
     transition-duration: 4s;
+   }
+
+   #nav.active #btn-mobile {
+    position: fixed;
    }
 
      #nav.active #menu {
