@@ -31,6 +31,9 @@ body {
 
     background: var(--dark);
     color: var(--white);
+
+    scroll-behavior: smooth;
+    
 }
 
 .container {
@@ -61,6 +64,8 @@ header .container ul {
 
 header .container ul li {
     color: var(--gray);
+
+    
 }
 
 header .container ul li:hover {
@@ -428,7 +433,8 @@ hr {
 
     overflow-y: hidden;
    }
-  
+
+     
 .line1,
 .line2,
 .line3 {
@@ -459,6 +465,8 @@ hr {
         height: 100vh;
     }
  }
+
+
 
 }
 
