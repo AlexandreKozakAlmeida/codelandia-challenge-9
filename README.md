@@ -1,6 +1,6 @@
 # codelandia-challenge-9
 
-Acesse a página do projeto em: https://alexandrekozakalmeida.github.io/codelandia-portfolio-challenge/
+Acesse o resultado do projeto em: https://alexandrekozakalmeida.github.io/codelandia-portfolio-challenge/
 
 Esse é o resultado de um desafio proposto por Iuri Silva pelo canal do #codelandia no discord.
 
